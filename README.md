@@ -51,7 +51,7 @@ Writing clean and maintainable code
 
 📂 Run the Project Locally
 # Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Koushik18700122016/Portfolio-with-react-js.git
 
 
 # Go to the project folder
