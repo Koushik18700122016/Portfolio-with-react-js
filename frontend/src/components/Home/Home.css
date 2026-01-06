@@ -1,0 +1,80 @@
+#home{
+    width:100%;
+    height:100%;
+   /* min-height:100vh; */
+    /*background-color:rgb(100, 131, 131);*/
+    display:flex; /* lefthome and righthome ke pasapasi create korlm */
+    overflow:hidden;
+}
+.lefthome{
+    width: 50%;
+    height: 100vh;
+    display: flex;/* lefthome er vitore je content gula thakbe segula ke center korlm */
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.righthome{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+ .righthome img{
+    width: 60%;
+    filter:drop-shadow(2px 4px 20px rgb(15, 60, 42));/* png image hoaii eke drop shadow korlm */
+ }
+ .homedetails{
+    
+    font-size: 2vmax;
+   
+ }
+ .line1{
+    font: size 0.8em; 
+
+    
+ }
+    .line2{
+        
+        font-size: 2.5em;
+        font-size: 30px;
+    background: linear-gradient(to right,rgb(66,180,205),white);
+    background-clip: text;
+    color:transparent;
+        
+    }
+    .line3{
+        font-size: 1em;
+        
+    }
+    .homedetails button{
+        margin-top: 30px;
+        padding:10px 30px;
+        font-size: 19px;
+        border:2px solid rgb(66, 180, 205);
+        background-color:rgb(66, 180, 205);
+        color:rgb(5, 5, 5);
+        cursor: pointer;
+        border-radius: 20px;
+        transition: all 0.5s;
+    }
+    .homedetails button:hover{
+        background-color: transparent;
+        color: rgb(154, 129, 129);
+    }
+    @media  (max-width: 750px){
+        #home{
+            flex-direction: column-reverse;
+        }
+        .lefthome{
+            width: 100%;
+            height: 50vh;
+        }
+        .righthome {
+            width: 100%;
+            height:50vh;
+            align-items:end;
+        }
+    }
