@@ -55,7 +55,7 @@ git clone https://github.com/Koushik18700122016/Portfolio-with-react-js.git
 
 
 # Go to the project folder
-cd your-repo-name
+cd Portfolio-with-react-js
 
 
 # Install dependencies
@@ -63,12 +63,12 @@ npm install
 
 
 # Start the development server
-npm start
+npm run dev
 📬 Contact
 
 If you’d like to connect, collaborate, or give feedback, feel free to reach out.
 
-📧 Email: (your email here)
-💼 LinkedIn: (your LinkedIn link)
+📧 Email: koushikdas6581@gmail.com
+💼 LinkedIn: 
 
 ⭐ If you like this project, don’t forget to give it a star on GitHub!
