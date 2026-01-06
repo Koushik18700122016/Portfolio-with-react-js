@@ -6,8 +6,7 @@ This is my personal portfolio website built using React JS, created to introduce
 
 🌐 Live Demo
 
-👉 (Add your deployed link here)
-Example: https://your-portfolio-link.com
+ https://koushik1portfolio.netlify.app
 
 👨‍💻 About This Project
 
@@ -30,8 +29,6 @@ Dark-themed interface
 🛠️ Technologies Used
 
 React JS
-
-JavaScript (ES6+)
 
 HTML5
 
